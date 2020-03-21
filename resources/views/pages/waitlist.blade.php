@@ -3,8 +3,7 @@
 
 
 @section('content')
-    <div class="welcome-jumbo">
-        <div class="status">OLD</div>
+    <div class="">
         <h1>Waitlist Page</h1>
     </div>
 @endsection
