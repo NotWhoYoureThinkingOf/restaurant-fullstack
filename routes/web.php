@@ -45,10 +45,10 @@ Route::get('/admin/reservations', 'admin\CustomersController@allReservations');
 
 // Admin Authentication
 Route::get('/admin/register', function () {
-    return view('admin/register');
+    return view('/admin/register');
 });
 Route::get('/admin/login', function () {
-    return view('admin/login');
+    return view('/admin/login');
 });
 
 
